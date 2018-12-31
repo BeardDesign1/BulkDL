@@ -13,7 +13,7 @@
 // @grant        none
 // @require      https://code.jquery.com/jquery-1.12.4.min.js
 // @homepageURL  https://github.com/BeardDesign1/BulkDL/
-// @updateURL    https://raw.githubusercontent.com/BeardDesign1/BulkDL/master/BulkDL%20Instagram.js
+// @updateURL    https://openuserjs.org/meta/LilianTdn/BulkDL_Instagram.meta.js
 // ==/UserScript==
 
 var isSelectionEnabled = false;
