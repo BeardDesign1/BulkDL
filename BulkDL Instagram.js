@@ -1,5 +1,6 @@
 // ==UserScript==
 // @name         BulkDL Instagram
+// @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  A userscript to bulk download images and videos on Instagram.
 // @author       LilianTdn
@@ -10,6 +11,10 @@
 // @homepageURL  https://github.com/BeardDesign1/BulkDL/
 // @updateURL    https://raw.githubusercontent.com/BeardDesign1/BulkDL/master/BulkDL%20Instagram.js
 // ==/UserScript==
+
+// ==OpenUserJS==
+// @author LilianTdn
+// ==/OpenUserJS==
 
 var isSelectionEnabled = false;
 var defaultBulkStyle = ".bulk-downloader{position: fixed; bottom:0px; right:0px; background:#fff; border:1px solid #E6E6E6; border-right:0; border-bottom:0; border-radius:5px 0 0 0; padding:10px; } .bulk-downloader button{border:none; background:rgba(0,0,0,.1); color:#404040; padding:8px 10px; margin-bottom:10px; border-radius:3px; font-weight:600; transition:transform 200ms cubic-bezier(0,0,0,1); cursor:pointer; } .bulk-downloader button:hover{background:rgba(0,0,0,.15); } .bulk-downloader button:active{background:#3897F0; color:#fff; transform:scale(.9); opacity:.5; transition:0ms ease; } .bulk-downloader button.blue{background:#3897F0; color:#fff; } .bulk-downloader button:last-child{margin-bottom: 0; } .bulk-downloader button:focus {outline:0;} .v1Nh3 {transition: 200ms cubic-bezier(0, 0, 0, 1) } .bulkselectable .bulkselected {box-shadow:0 0 0 3px #fff, 0 0 0 5px #3897F0; border-radius: 10px; overflow: hidden; transform:scale(.95); } .bulkselectable .v1Nh3:active {opacity: .3; transform: scale(.9); transition: 0ms ease; } .bulkselectable .v1Nh3 * {pointer-events: none !important; } .bulkselectable .v1Nh3::after {content: ''; position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: 100; cursor: pointer }";
