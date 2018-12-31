@@ -8,6 +8,8 @@
 // @match        https://www.instagram.com/*
 // @grant        none
 // @require      https://code.jquery.com/jquery-1.12.4.min.js
+// @homepageURL  https://github.com/BeardDesign1/BulkDL/
+// @updateURL    
 // ==/UserScript==
 
 var isSelectionEnabled = false;
