@@ -1,6 +1,5 @@
 // ==UserScript==
 // @name         BulkDL Instagram
-// @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  A userscript to bulk download images and videos on Instagram.
 // @author       LilianTdn
